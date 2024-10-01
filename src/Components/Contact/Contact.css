@@ -1,0 +1,49 @@
+.contact{
+    background-image: url('background4.png');
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevents repeating */
+}
+
+.contact h2{
+    margin-top: 7%;
+    margin-bottom: -3%;
+}
+
+.contact form{
+    max-width: 70%;
+    margin: 1rem auto;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: .9rem;
+    font-size: 15px;
+    color: #8d2a2a;
+    background: #e4e3f0d8;
+    border-radius: 15px;
+    margin: 7px 0;
+    border: .1rem solid #0c213d34;
+}
+
+.contact form .input-box input{
+    width: 49%;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.contact form .btn{
+    margin-top: 15px;
+    cursor: pointer;
+}
